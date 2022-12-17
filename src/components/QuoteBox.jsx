@@ -10,7 +10,7 @@ const QuoteBox = () => {
         setIndex(randomPhrase)
     }
 
-    const colors = [ '#638FBF', '#717DB6', '#8269A4', '#90548B', '#97406B', '#35B8CE', '#2ACFC6', '#66E3AC', '#ACF18B', '#F9F871'   ]
+    const colors = [ '#638FBF', '#717DB6', '#8269A4', '#90548B', '#97406B', '#35B8CE', '#2ACFC6', '#66E3AC', '#ACF18B', ]
     const randomColor = Math.floor(Math.random() * colors.length)
     document.body.style = `background: ${colors[randomColor]}`
     
