@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.App{
+  margin: 5rem;
+}
+
+.Pbox{
+  margin: 6rem;
+  
+
+}
+
+.box{
+  padding: 2rem;
+  box-shadow: 2px 2px 10px 2px grey;
+  border-radius: 20px 0;
+  background-color: snow;
+}
+
+
+
+.box p{
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
+
+.box h3{
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  margin-left: auto;
+  text-align: end;
+  margin-bottom: 1rem;
+  
+}
+
+
+.box button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  display: block;
+  margin-left: auto;
+}
